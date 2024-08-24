@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>STRONA WWW</title>
+    <link rel="stylesheet" href="../styl/styl.css">
+    <link rel="icon" href="../zdjecia/logo.png">
+    <link rel="stylesheet" href="../zdjecia/fontello-d8586a9b/css/fontello.css">
+</head>
+<body>
+    <div id="wrap">
+        <div id="logo"><img src="../zdjecia/pad.png">STRONA GŁÓWNA</div>
+        <div id="menu">
+            <ol>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="#" style="text-decoration: line-through;">Usługi</a></li>
+                <li><a href="#" style="text-decoration: line-through;">O autorze</a></li>
+            </ol>
+        </div>
+        <div id="log">
+            <div id="login">
+                <p><b>Ekran logowania</b></p>
+            <form action="../skrypt/login.php" method="POST">
+                <table>
+                    <tr>
+                    <td>Login:</td>
+                    <td><input type="text" name="log"></td>
+                    </tr>
+                    <tr>
+                    <td>Hasło:</td>
+                    <td><input type="password" name="pass"></td>
+                    </tr>
+                    <tr>
+                    <td></td>
+                    <td><input type="submit" value="Zarejestruj się" name="rel"> <input type="submit" value="Zaloguj się" name="but"></td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+                <p><h4>Zawartość podstron<br> 
+                "Usługi" i "Autor"<br>
+                są dostępne dla zalogowanych
+                </h4></p>
+            </div>
+            <div id="aktywosc">
+            <script src="../skrypt/text.js"></script>
+            <p>
+            <h3>Przyciski do edycji tekstu</h3>
+            <br>
+            <button onclick="tak('bold');"><i class="icon-bold"></i></button>
+            <button onclick="tak('italic');"><i class="icon-italic"></i></button>
+            <button onclick="tak('left');"><i class="icon-align-left"></i></button>
+            <button onclick="tak('right');"><i class="icon-align-right"></i></button>
+            <button onclick="tak('center');"><i class="icon-align-center"></i></button>
+            <button onclick="tak('justify');"><i class="icon-align-justify"></i></button>
+            </p>
+            <button onclick="reset()" style="margin: 10px; margin-inline:auto;">RESETUJ STYL</button>
+            </div>
+        </div>
+        <div id="opis">
+<p id="wynik">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida lacinia felis, ut dapibus arcu molestie in. Fusce pellentesque augue tortor, non dignissim augue fermentum sed. Sed ultricies tempus consequat. Nullam sed lacus eget dui blandit consectetur nec nec est. Proin vel ante ut libero luctus sodales. Fusce dapibus rhoncus rhoncus. Maecenas felis lectus, ultricies at rhoncus ac, dictum at mi. Vestibulum sit amet euismod dolor. Morbi rhoncus pharetra eros vitae venenatis. In lobortis dui et tristique accumsan. Phasellus venenatis eu dolor at semper. Morbi accumsan, nulla ac pulvinar tristique, ex metus malesuada nulla, et maximus ante turpis et odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed pulvinar ipsum in est volutpat tempus.
+
+Vestibulum posuere iaculis nulla non pharetra. Fusce tempus, dui eu molestie feugiat, est neque gravida justo, eu pharetra augue neque eu sapien. Donec arcu nisl, porttitor vitae ex quis, porttitor bibendum velit. Fusce eget turpis a sapien aliquet consectetur vitae ac neque. Sed nisl purus, cursus vel lobortis vel, accumsan et nulla. Donec id elit non nunc euismod pretium et dignissim ex. In auctor risus enim, vitae tincidunt quam sodales nec. Maecenas posuere mattis risus, quis pulvinar tellus tempor eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus pellentesque imperdiet luctus. Sed efficitur imperdiet ante, in semper quam imperdiet et. Sed dignissim orci nulla, ut maximus ligula feugiat et. In sed diam eu purus bibendum eleifend ac in turpis. Sed hendrerit egestas ex, nec gravida sapien tempor eu. Etiam ultrices orci eget laoreet fermentum.
+
+Donec egestas enim nec felis placerat varius. Sed at molestie nunc, sit amet bibendum ex. Quisque eget diam tempor, suscipit libero in, feugiat nulla. Donec iaculis sed mauris sit amet dignissim. Aenean scelerisque est non laoreet mollis. Maecenas maximus eget enim ut sagittis. Donec vel lobortis mauris. Pellentesque velit sapien, auctor et dapibus ac, vulputate eget quam. Praesent non placerat ligula, ac hendrerit ante. Mauris ornare ipsum et ultrices mollis. Quisque ullamcorper in nulla in porta.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi tellus tellus, commodo nec condimentum ut, vehicula at lorem. Proin in odio id eros accumsan posuere. Morbi pulvinar tincidunt urna, sed laoreet ex tristique eget. Nunc venenatis neque vitae odio auctor, nec cursus ligula laoreet. Curabitur semper enim non orci lobortis vehicula. Aenean quis quam porta risus lobortis viverra quis sit amet mi. Donec sollicitudin magna id quam semper feugiat. Donec hendrerit dolor imperdiet tellus consequat, vel fermentum turpis lacinia. Etiam sed tortor eget velit pretium hendrerit sit amet et enim. Proin ornare purus eget dignissim finibus. Vivamus imperdiet lobortis ante tempor gravida. Quisque porttitor in augue sit amet efficitur.
+
+Proin congue sit amet magna et pretium. Integer convallis et diam vitae sagittis. Mauris nec ullamcorper urna. Curabitur eget sollicitudin dui, in gravida elit. Etiam ut metus euismod, ultricies odio vel, sagittis felis. Nam ac lorem ullamcorper dui lacinia faucibus quis ultricies tortor. Nulla ac iaculis massa. Fusce non nibh ipsum.
+
+Suspendisse potenti. Quisque eleifend blandit nisl, ut lobortis tortor efficitur quis. Quisque egestas ultrices tincidunt. Nullam eget condimentum diam. Vivamus eu turpis gravida, lacinia est fringilla, viverra mauris. Aliquam fermentum odio nisl, ac viverra arcu egestas a. Etiam facilisis porta neque et porttitor. Ut a scelerisque nisi, eleifend eleifend nunc. Donec pharetra metus ac enim varius, et eleifend nunc tempor. Quisque euismod metus eget accumsan vulputate. Fusce dui lacus, pulvinar ac facilisis eget, commodo et diam. Cras aliquam interdum quam, at efficitur dui bibendum vitae. Quisque suscipit massa arcu, sed egestas tortor hendrerit ut. In accumsan metus et finibus iaculis.
+
+Vestibulum at placerat neque, sed scelerisque elit. Mauris ornare, purus sit amet pellentesque vehicula, urna nisi rhoncus diam, porttitor feugiat risus ex vitae elit. Fusce dapibus ligula in orci laoreet, a pulvinar leo consequat. Nam id cursus nisi. Vestibulum fringilla porttitor arcu sed fermentum. Nam eleifend interdum feugiat. Vestibulum velit velit, iaculis fringilla dui vitae, varius consequat ligula. Sed lacinia purus orci, eget finibus sem commodo a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada bibendum dui ac tincidunt.
+
+Vivamus at lacus ac ligula faucibus sollicitudin non sit amet felis. Donec non dictum tortor. Donec augue libero, tincidunt in vehicula non, hendrerit consectetur mi. Aliquam nunc magna, semper id ligula ac, semper dictum massa. Suspendisse egestas sem purus, vitae gravida metus porta nec. Nunc tincidunt orci in sapien dignissim, a lacinia ante dapibus. Curabitur ut vestibulum erat.
+
+Cras quis lacus faucibus, sollicitudin mauris nec, sagittis lacus. Cras efficitur urna sed accumsan pretium. Curabitur porttitor feugiat ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque sit amet massa et libero ultricies vehicula. Curabitur sit amet justo non ipsum congue interdum. Nullam nec eros et mauris lacinia faucibus id id sapien. Phasellus egestas est et lobortis laoreet. Nulla imperdiet egestas sagittis. Sed eget nunc non ligula molestie laoreet. Maecenas vel maximus nibh, eget finibus neque. Nam malesuada maximus orci, nec dignissim lacus gravida ac.
+
+Aliquam placerat porta eros, sed pulvinar mi commodo in. Vivamus imperdiet pretium nunc, quis auctor libero volutpat sit amet. Nulla facilisi. Curabitur erat tellus, tincidunt laoreet ipsum posuere, posuere tristique felis. Aliquam convallis sapien vel leo condimentum congue. Ut ac ipsum non arcu egestas feugiat. Ut at mi sed lectus euismod imperdiet.
+Generated 10 paragraphs, 887 words, 5956 bytes of Lorem Ipsum 
+</p>
+        </div>
+        <div id="stopka">
+            <div id="fb">
+                <a href="https://www.facebook.com/jakub.staszek.336/" target="_blank"><i class="icon-facebook-rect"></i></a></div>
+            <div id="git">
+                <a href="https://github.com/FunnyHarp087" target="_blank"><i class="icon-github"></i></a></div>
+            <div id="wc3">
+                <a href="https://www.w3schools.com/" target="_blank"><i class="icon-w3c"></i></a></div>
+            <div id="insta">
+                <a href="https://www.instagram.com/stanaszekj/" target="_blank"><i class="icon-instagram"></i></a></div>
+        </div>
+    </div>
+</body>
+</html>
